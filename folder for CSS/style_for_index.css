@@ -1,6 +1,6 @@
 
 body{
-  background-color: blue;
+  background-color: #ffccff;
 }
 h1{
   color: white;
@@ -30,4 +30,14 @@ h3.text{
  p.example , b{
    font-size: 30px;
    font-weight: normal;
+ }
+ p#para::first-letter{
+   color:red;
+ }
+ p#para::first-line{
+   color:#ff8000;
+ }
+ .url:hover{
+   color:  #ff0066;
+   text-decoration:none;
  }
