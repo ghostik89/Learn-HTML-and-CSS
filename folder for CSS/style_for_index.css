@@ -1,0 +1,33 @@
+
+body{
+  background-color: blue;
+}
+h1{
+  color: white;
+}
+/*id you can use only once!!!*/
+/*this is a id*/
+#title{
+  color: #ccffff;
+  font-family: "Courier New", Courier, monospace;
+}
+/*class ypu can you use a lot*/
+.text{
+  color:#b3b3ff;
+}
+/*only for h3 a lot))*/
+h3.text{
+
+  background-color: #ffbf00;
+}
+/*header whitn tag u*/
+ h3 u { font-family: cursive;}
+/*for all document*/
+ * {
+   /*font-size: 20px;*/
+ }
+ /*for p and b*/
+ p.example , b{
+   font-size: 30px;
+   font-weight: normal;
+ }
