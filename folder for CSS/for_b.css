@@ -1,0 +1,17 @@
+html{
+  /*background-color:  #0099ff;*/
+  background: url('img/iback.jpg') repeat-x #0099ff center top;
+  /*url('image link'), repeat - how repeat, #color without image
+  centet top - place for image*/
+}
+.text{
+  color:white;
+}
+
+h1.text, h2.text{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.text{
+  font-family: "Courier New", Courier, monospace;
+}
