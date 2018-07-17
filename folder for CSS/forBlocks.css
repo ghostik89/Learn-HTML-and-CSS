@@ -1,0 +1,11 @@
+html{
+  background: #99ccff;
+}
+#testblock{
+  border: 2px dashed silver;
+  height: auto;
+  background-color: #9966ff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+}
