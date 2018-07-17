@@ -1,0 +1,18 @@
+html{
+    background: #99ccff;
+}
+#textstyles{
+  font-size: 1.1em;/*better than pixels*/
+  font-weight: lighter;
+  font-family: Georgia, serif;
+  text-decoration: underline;
+  /*text position*/
+  text-align: center;
+}
+p{
+  text-indent: 1.1em;
+  text-transform: capitalize;
+  word-spacing: 1.1em;
+  letter-spacing: 0.1em;
+  line-height: 120%;
+}
