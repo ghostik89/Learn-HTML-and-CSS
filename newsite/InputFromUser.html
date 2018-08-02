@@ -32,5 +32,47 @@
     <!--for big users input-->
     <textarea placeholder="write something">
     </textarea>
+    <br><hr>
+    <form>
+      <!--araea for users input-->
+      <fieldset>
+        <!--header for this-->
+        <legend>
+          Enter your:
+        </legend>
+          <label for="lastname">
+            lastname
+            <input type="text" name="lastname" >
+          </label>
+          <br>
+          <label for="firstname">
+            firstname
+            <input type="text" name="firstname" >
+          </label>
+          <br>
+          <label for="ppas">
+            Password
+            <input type="password" name="ppas">
+          </label>
+          <br>
+          <label for="photo">
+            Password
+            <input type="file" name="photo">
+          </label>
+          <br>
+          <label for="launch">
+            Simple button
+            <input type="button" name="launch" value="click me"
+            onclick="myprogram">
+          </label>
+          <br>
+          <label for="rs">
+            reset button
+            <input type="reset" name="rs" value="reset me"
+            onclick="reset fields">
+          </label>
+          <br>
+      </fieldset>
+    </form>
   </body>
 </html>
